@@ -7,192 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15B01DD53A91B24C39B33CE5 /* libPods-sunduskCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB1828E604130E2A2B53AF /* libPods-sunduskCamera.a */; };
-		8070F8A3EAA1CCCDDD0E8993 /* libPods-sunduskCameraUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A65DD2BDC76200D711C37C2 /* libPods-sunduskCameraUITests.a */; };
-		837472D47DABFE44D292AD9D /* libPods-sunduskCameraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F19982498A3B4458EBFA12A /* libPods-sunduskCameraTests.a */; };
-		C2CA097A1E71654900439BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA09791E71654900439BAC /* main.m */; };
-		C2CA097D1E71654900439BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA097C1E71654900439BAC /* AppDelegate.m */; };
-		C2CA09801E71654900439BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA097F1E71654900439BAC /* ViewController.m */; };
-		C2CA09831E71654900439BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CA09811E71654900439BAC /* Main.storyboard */; };
-		C2CA09851E71654900439BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CA09841E71654900439BAC /* Assets.xcassets */; };
-		C2CA09881E71654900439BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CA09861E71654900439BAC /* LaunchScreen.storyboard */; };
-		C2CA09931E71654900439BAC /* sunduskCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA09921E71654900439BAC /* sunduskCameraTests.m */; };
-		C2CA099E1E71654900439BAC /* sunduskCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA099D1E71654900439BAC /* sunduskCameraUITests.m */; };
+		C247D0BE1E717D2600E22BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C247D0BD1E717D2600E22BEE /* main.m */; };
+		C247D0C11E717D2600E22BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C247D0C01E717D2600E22BEE /* AppDelegate.m */; };
+		C247D0C71E717D2600E22BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C247D0C51E717D2600E22BEE /* Main.storyboard */; };
+		C247D0C91E717D2600E22BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C247D0C81E717D2600E22BEE /* Assets.xcassets */; };
+		C247D0CC1E717D2600E22BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C247D0CA1E717D2600E22BEE /* LaunchScreen.storyboard */; };
+		C247D0D71E717D2600E22BEE /* sunduskCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C247D0D61E717D2600E22BEE /* sunduskCameraTests.m */; };
+		C247D0E21E717D2600E22BEE /* sunduskCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C247D0E11E717D2600E22BEE /* sunduskCameraUITests.m */; };
+		C247D0F11E717D4400E22BEE /* CCQCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C247D0F01E717D4400E22BEE /* CCQCameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C2CA098F1E71654900439BAC /* PBXContainerItemProxy */ = {
+		C247D0D31E717D2600E22BEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C2CA096D1E71654900439BAC /* Project object */;
+			containerPortal = C247D0B11E717D2600E22BEE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C2CA09741E71654900439BAC;
+			remoteGlobalIDString = C247D0B81E717D2600E22BEE;
 			remoteInfo = sunduskCamera;
 		};
-		C2CA099A1E71654900439BAC /* PBXContainerItemProxy */ = {
+		C247D0DE1E717D2600E22BEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C2CA096D1E71654900439BAC /* Project object */;
+			containerPortal = C247D0B11E717D2600E22BEE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C2CA09741E71654900439BAC;
+			remoteGlobalIDString = C247D0B81E717D2600E22BEE;
 			remoteInfo = sunduskCamera;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DA6EA612F0B9DD3250C62DA /* Pods-sunduskCameraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskCameraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskCameraUITests/Pods-sunduskCameraUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1DA3D8B749639337AE80CA36 /* Pods-sunduskCameraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskCameraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskCameraTests/Pods-sunduskCameraTests.release.xcconfig"; sourceTree = "<group>"; };
-		2CE9A9E89EA3EFB11F200815 /* Pods-sunduskCameraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskCameraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskCameraUITests/Pods-sunduskCameraUITests.release.xcconfig"; sourceTree = "<group>"; };
-		31EB1828E604130E2A2B53AF /* libPods-sunduskCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunduskCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46B468CA08FB9EFA3E05A0C6 /* Pods-sunduskCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskCamera/Pods-sunduskCamera.debug.xcconfig"; sourceTree = "<group>"; };
-		5F19982498A3B4458EBFA12A /* libPods-sunduskCameraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunduskCameraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		671BAC81AF09E937A39A305D /* Pods-sunduskCameraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskCameraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskCameraTests/Pods-sunduskCameraTests.debug.xcconfig"; sourceTree = "<group>"; };
-		87847F125355F3CD4854B433 /* Pods-sunduskCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskCamera/Pods-sunduskCamera.release.xcconfig"; sourceTree = "<group>"; };
-		8A65DD2BDC76200D711C37C2 /* libPods-sunduskCameraUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunduskCameraUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2CA09751E71654900439BAC /* sunduskCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunduskCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2CA09791E71654900439BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2CA097B1E71654900439BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C2CA097C1E71654900439BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2CA097E1E71654900439BAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C2CA097F1E71654900439BAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C2CA09821E71654900439BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2CA09841E71654900439BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2CA09871E71654900439BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C2CA09891E71654900439BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2CA098E1E71654900439BAC /* sunduskCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sunduskCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2CA09921E71654900439BAC /* sunduskCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunduskCameraTests.m; sourceTree = "<group>"; };
-		C2CA09941E71654900439BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2CA09991E71654900439BAC /* sunduskCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sunduskCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2CA099D1E71654900439BAC /* sunduskCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunduskCameraUITests.m; sourceTree = "<group>"; };
-		C2CA099F1E71654900439BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C247D0B91E717D2600E22BEE /* sunduskCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunduskCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C247D0BD1E717D2600E22BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C247D0BF1E717D2600E22BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C247D0C01E717D2600E22BEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C247D0C61E717D2600E22BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C247D0C81E717D2600E22BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C247D0CB1E717D2600E22BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C247D0CD1E717D2600E22BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C247D0D21E717D2600E22BEE /* sunduskCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sunduskCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C247D0D61E717D2600E22BEE /* sunduskCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunduskCameraTests.m; sourceTree = "<group>"; };
+		C247D0D81E717D2600E22BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C247D0DD1E717D2600E22BEE /* sunduskCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sunduskCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C247D0E11E717D2600E22BEE /* sunduskCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunduskCameraUITests.m; sourceTree = "<group>"; };
+		C247D0E31E717D2600E22BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C247D0EF1E717D4400E22BEE /* CCQCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQCameraViewController.h; sourceTree = "<group>"; };
+		C247D0F01E717D4400E22BEE /* CCQCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQCameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2CA09721E71654900439BAC /* Frameworks */ = {
+		C247D0B61E717D2600E22BEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B01DD53A91B24C39B33CE5 /* libPods-sunduskCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CA098B1E71654900439BAC /* Frameworks */ = {
+		C247D0CF1E717D2600E22BEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837472D47DABFE44D292AD9D /* libPods-sunduskCameraTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CA09961E71654900439BAC /* Frameworks */ = {
+		C247D0DA1E717D2600E22BEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8070F8A3EAA1CCCDDD0E8993 /* libPods-sunduskCameraUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A04AB74FD296DE644E91A90C /* Pods */ = {
+		C247D0B01E717D2600E22BEE = {
 			isa = PBXGroup;
 			children = (
-				46B468CA08FB9EFA3E05A0C6 /* Pods-sunduskCamera.debug.xcconfig */,
-				87847F125355F3CD4854B433 /* Pods-sunduskCamera.release.xcconfig */,
-				671BAC81AF09E937A39A305D /* Pods-sunduskCameraTests.debug.xcconfig */,
-				1DA3D8B749639337AE80CA36 /* Pods-sunduskCameraTests.release.xcconfig */,
-				0DA6EA612F0B9DD3250C62DA /* Pods-sunduskCameraUITests.debug.xcconfig */,
-				2CE9A9E89EA3EFB11F200815 /* Pods-sunduskCameraUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C2CA096C1E71654900439BAC = {
-			isa = PBXGroup;
-			children = (
-				C2CA09771E71654900439BAC /* sunduskCamera */,
-				C2CA09911E71654900439BAC /* sunduskCameraTests */,
-				C2CA099C1E71654900439BAC /* sunduskCameraUITests */,
-				C2CA09761E71654900439BAC /* Products */,
-				A04AB74FD296DE644E91A90C /* Pods */,
-				E5B3F301CC3E7E94CFE00DD9 /* Frameworks */,
+				C247D0BB1E717D2600E22BEE /* sunduskCamera */,
+				C247D0D51E717D2600E22BEE /* sunduskCameraTests */,
+				C247D0E01E717D2600E22BEE /* sunduskCameraUITests */,
+				C247D0BA1E717D2600E22BEE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2CA09761E71654900439BAC /* Products */ = {
+		C247D0BA1E717D2600E22BEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2CA09751E71654900439BAC /* sunduskCamera.app */,
-				C2CA098E1E71654900439BAC /* sunduskCameraTests.xctest */,
-				C2CA09991E71654900439BAC /* sunduskCameraUITests.xctest */,
+				C247D0B91E717D2600E22BEE /* sunduskCamera.app */,
+				C247D0D21E717D2600E22BEE /* sunduskCameraTests.xctest */,
+				C247D0DD1E717D2600E22BEE /* sunduskCameraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2CA09771E71654900439BAC /* sunduskCamera */ = {
+		C247D0BB1E717D2600E22BEE /* sunduskCamera */ = {
 			isa = PBXGroup;
 			children = (
-				C2CA097B1E71654900439BAC /* AppDelegate.h */,
-				C2CA097C1E71654900439BAC /* AppDelegate.m */,
-				C2CA097E1E71654900439BAC /* ViewController.h */,
-				C2CA097F1E71654900439BAC /* ViewController.m */,
-				C2CA09811E71654900439BAC /* Main.storyboard */,
-				C2CA09841E71654900439BAC /* Assets.xcassets */,
-				C2CA09861E71654900439BAC /* LaunchScreen.storyboard */,
-				C2CA09891E71654900439BAC /* Info.plist */,
-				C2CA09781E71654900439BAC /* Supporting Files */,
+				C247D0BF1E717D2600E22BEE /* AppDelegate.h */,
+				C247D0EF1E717D4400E22BEE /* CCQCameraViewController.h */,
+				C247D0F01E717D4400E22BEE /* CCQCameraViewController.m */,
+				C247D0C01E717D2600E22BEE /* AppDelegate.m */,
+				C247D0C51E717D2600E22BEE /* Main.storyboard */,
+				C247D0C81E717D2600E22BEE /* Assets.xcassets */,
+				C247D0CA1E717D2600E22BEE /* LaunchScreen.storyboard */,
+				C247D0CD1E717D2600E22BEE /* Info.plist */,
+				C247D0BC1E717D2600E22BEE /* Supporting Files */,
 			);
 			path = sunduskCamera;
 			sourceTree = "<group>";
 		};
-		C2CA09781E71654900439BAC /* Supporting Files */ = {
+		C247D0BC1E717D2600E22BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2CA09791E71654900439BAC /* main.m */,
+				C247D0BD1E717D2600E22BEE /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2CA09911E71654900439BAC /* sunduskCameraTests */ = {
+		C247D0D51E717D2600E22BEE /* sunduskCameraTests */ = {
 			isa = PBXGroup;
 			children = (
-				C2CA09921E71654900439BAC /* sunduskCameraTests.m */,
-				C2CA09941E71654900439BAC /* Info.plist */,
+				C247D0D61E717D2600E22BEE /* sunduskCameraTests.m */,
+				C247D0D81E717D2600E22BEE /* Info.plist */,
 			);
 			path = sunduskCameraTests;
 			sourceTree = "<group>";
 		};
-		C2CA099C1E71654900439BAC /* sunduskCameraUITests */ = {
+		C247D0E01E717D2600E22BEE /* sunduskCameraUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C2CA099D1E71654900439BAC /* sunduskCameraUITests.m */,
-				C2CA099F1E71654900439BAC /* Info.plist */,
+				C247D0E11E717D2600E22BEE /* sunduskCameraUITests.m */,
+				C247D0E31E717D2600E22BEE /* Info.plist */,
 			);
 			path = sunduskCameraUITests;
-			sourceTree = "<group>";
-		};
-		E5B3F301CC3E7E94CFE00DD9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				31EB1828E604130E2A2B53AF /* libPods-sunduskCamera.a */,
-				5F19982498A3B4458EBFA12A /* libPods-sunduskCameraTests.a */,
-				8A65DD2BDC76200D711C37C2 /* libPods-sunduskCameraUITests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2CA09741E71654900439BAC /* sunduskCamera */ = {
+		C247D0B81E717D2600E22BEE /* sunduskCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2CA09A21E71654900439BAC /* Build configuration list for PBXNativeTarget "sunduskCamera" */;
+			buildConfigurationList = C247D0E61E717D2600E22BEE /* Build configuration list for PBXNativeTarget "sunduskCamera" */;
 			buildPhases = (
-				EB0E2DF78FB7F82D96AED554 /* [CP] Check Pods Manifest.lock */,
-				C2CA09711E71654900439BAC /* Sources */,
-				C2CA09721E71654900439BAC /* Frameworks */,
-				C2CA09731E71654900439BAC /* Resources */,
-				B1405090FE42B2B06F098FBF /* [CP] Embed Pods Frameworks */,
-				DF4C6D6AAF04DE481314BDF3 /* [CP] Copy Pods Resources */,
+				C247D0B51E717D2600E22BEE /* Sources */,
+				C247D0B61E717D2600E22BEE /* Frameworks */,
+				C247D0B71E717D2600E22BEE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -200,80 +157,74 @@
 			);
 			name = sunduskCamera;
 			productName = sunduskCamera;
-			productReference = C2CA09751E71654900439BAC /* sunduskCamera.app */;
+			productReference = C247D0B91E717D2600E22BEE /* sunduskCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2CA098D1E71654900439BAC /* sunduskCameraTests */ = {
+		C247D0D11E717D2600E22BEE /* sunduskCameraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2CA09A51E71654900439BAC /* Build configuration list for PBXNativeTarget "sunduskCameraTests" */;
+			buildConfigurationList = C247D0E91E717D2600E22BEE /* Build configuration list for PBXNativeTarget "sunduskCameraTests" */;
 			buildPhases = (
-				FBD94CA82A307ACCDE24973B /* [CP] Check Pods Manifest.lock */,
-				C2CA098A1E71654900439BAC /* Sources */,
-				C2CA098B1E71654900439BAC /* Frameworks */,
-				C2CA098C1E71654900439BAC /* Resources */,
-				20AF2F456D84906FE77A072B /* [CP] Embed Pods Frameworks */,
-				D9928A8762327FF363D125CB /* [CP] Copy Pods Resources */,
+				C247D0CE1E717D2600E22BEE /* Sources */,
+				C247D0CF1E717D2600E22BEE /* Frameworks */,
+				C247D0D01E717D2600E22BEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2CA09901E71654900439BAC /* PBXTargetDependency */,
+				C247D0D41E717D2600E22BEE /* PBXTargetDependency */,
 			);
 			name = sunduskCameraTests;
 			productName = sunduskCameraTests;
-			productReference = C2CA098E1E71654900439BAC /* sunduskCameraTests.xctest */;
+			productReference = C247D0D21E717D2600E22BEE /* sunduskCameraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C2CA09981E71654900439BAC /* sunduskCameraUITests */ = {
+		C247D0DC1E717D2600E22BEE /* sunduskCameraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2CA09A81E71654900439BAC /* Build configuration list for PBXNativeTarget "sunduskCameraUITests" */;
+			buildConfigurationList = C247D0EC1E717D2600E22BEE /* Build configuration list for PBXNativeTarget "sunduskCameraUITests" */;
 			buildPhases = (
-				80415E1A43098926388C0A0D /* [CP] Check Pods Manifest.lock */,
-				C2CA09951E71654900439BAC /* Sources */,
-				C2CA09961E71654900439BAC /* Frameworks */,
-				C2CA09971E71654900439BAC /* Resources */,
-				9FFA097C65643F74DFB54972 /* [CP] Embed Pods Frameworks */,
-				D4525F117A0077BC58AAB74A /* [CP] Copy Pods Resources */,
+				C247D0D91E717D2600E22BEE /* Sources */,
+				C247D0DA1E717D2600E22BEE /* Frameworks */,
+				C247D0DB1E717D2600E22BEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2CA099B1E71654900439BAC /* PBXTargetDependency */,
+				C247D0DF1E717D2600E22BEE /* PBXTargetDependency */,
 			);
 			name = sunduskCameraUITests;
 			productName = sunduskCameraUITests;
-			productReference = C2CA09991E71654900439BAC /* sunduskCameraUITests.xctest */;
+			productReference = C247D0DD1E717D2600E22BEE /* sunduskCameraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2CA096D1E71654900439BAC /* Project object */ = {
+		C247D0B11E717D2600E22BEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = sundusk;
 				TargetAttributes = {
-					C2CA09741E71654900439BAC = {
+					C247D0B81E717D2600E22BEE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HCPQ4JRW53;
 						ProvisioningStyle = Automatic;
 					};
-					C2CA098D1E71654900439BAC = {
+					C247D0D11E717D2600E22BEE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HCPQ4JRW53;
 						ProvisioningStyle = Automatic;
-						TestTargetID = C2CA09741E71654900439BAC;
+						TestTargetID = C247D0B81E717D2600E22BEE;
 					};
-					C2CA09981E71654900439BAC = {
+					C247D0DC1E717D2600E22BEE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HCPQ4JRW53;
 						ProvisioningStyle = Automatic;
-						TestTargetID = C2CA09741E71654900439BAC;
+						TestTargetID = C247D0B81E717D2600E22BEE;
 					};
 				};
 			};
-			buildConfigurationList = C2CA09701E71654900439BAC /* Build configuration list for PBXProject "sunduskCamera" */;
+			buildConfigurationList = C247D0B41E717D2600E22BEE /* Build configuration list for PBXProject "sunduskCamera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -281,37 +232,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C2CA096C1E71654900439BAC;
-			productRefGroup = C2CA09761E71654900439BAC /* Products */;
+			mainGroup = C247D0B01E717D2600E22BEE;
+			productRefGroup = C247D0BA1E717D2600E22BEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2CA09741E71654900439BAC /* sunduskCamera */,
-				C2CA098D1E71654900439BAC /* sunduskCameraTests */,
-				C2CA09981E71654900439BAC /* sunduskCameraUITests */,
+				C247D0B81E717D2600E22BEE /* sunduskCamera */,
+				C247D0D11E717D2600E22BEE /* sunduskCameraTests */,
+				C247D0DC1E717D2600E22BEE /* sunduskCameraUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2CA09731E71654900439BAC /* Resources */ = {
+		C247D0B71E717D2600E22BEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CA09881E71654900439BAC /* LaunchScreen.storyboard in Resources */,
-				C2CA09851E71654900439BAC /* Assets.xcassets in Resources */,
-				C2CA09831E71654900439BAC /* Main.storyboard in Resources */,
+				C247D0CC1E717D2600E22BEE /* LaunchScreen.storyboard in Resources */,
+				C247D0C91E717D2600E22BEE /* Assets.xcassets in Resources */,
+				C247D0C71E717D2600E22BEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CA098C1E71654900439BAC /* Resources */ = {
+		C247D0D01E717D2600E22BEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CA09971E71654900439BAC /* Resources */ = {
+		C247D0DB1E717D2600E22BEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,199 +271,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		20AF2F456D84906FE77A072B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskCameraTests/Pods-sunduskCameraTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80415E1A43098926388C0A0D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9FFA097C65643F74DFB54972 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskCameraUITests/Pods-sunduskCameraUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1405090FE42B2B06F098FBF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskCamera/Pods-sunduskCamera-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D4525F117A0077BC58AAB74A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskCameraUITests/Pods-sunduskCameraUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9928A8762327FF363D125CB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskCameraTests/Pods-sunduskCameraTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF4C6D6AAF04DE481314BDF3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskCamera/Pods-sunduskCamera-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB0E2DF78FB7F82D96AED554 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FBD94CA82A307ACCDE24973B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C2CA09711E71654900439BAC /* Sources */ = {
+		C247D0B51E717D2600E22BEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CA09801E71654900439BAC /* ViewController.m in Sources */,
-				C2CA097D1E71654900439BAC /* AppDelegate.m in Sources */,
-				C2CA097A1E71654900439BAC /* main.m in Sources */,
+				C247D0C11E717D2600E22BEE /* AppDelegate.m in Sources */,
+				C247D0F11E717D4400E22BEE /* CCQCameraViewController.m in Sources */,
+				C247D0BE1E717D2600E22BEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CA098A1E71654900439BAC /* Sources */ = {
+		C247D0CE1E717D2600E22BEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CA09931E71654900439BAC /* sunduskCameraTests.m in Sources */,
+				C247D0D71E717D2600E22BEE /* sunduskCameraTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CA09951E71654900439BAC /* Sources */ = {
+		C247D0D91E717D2600E22BEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CA099E1E71654900439BAC /* sunduskCameraUITests.m in Sources */,
+				C247D0E21E717D2600E22BEE /* sunduskCameraUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C2CA09901E71654900439BAC /* PBXTargetDependency */ = {
+		C247D0D41E717D2600E22BEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2CA09741E71654900439BAC /* sunduskCamera */;
-			targetProxy = C2CA098F1E71654900439BAC /* PBXContainerItemProxy */;
+			target = C247D0B81E717D2600E22BEE /* sunduskCamera */;
+			targetProxy = C247D0D31E717D2600E22BEE /* PBXContainerItemProxy */;
 		};
-		C2CA099B1E71654900439BAC /* PBXTargetDependency */ = {
+		C247D0DF1E717D2600E22BEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2CA09741E71654900439BAC /* sunduskCamera */;
-			targetProxy = C2CA099A1E71654900439BAC /* PBXContainerItemProxy */;
+			target = C247D0B81E717D2600E22BEE /* sunduskCamera */;
+			targetProxy = C247D0DE1E717D2600E22BEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C2CA09811E71654900439BAC /* Main.storyboard */ = {
+		C247D0C51E717D2600E22BEE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2CA09821E71654900439BAC /* Base */,
+				C247D0C61E717D2600E22BEE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C2CA09861E71654900439BAC /* LaunchScreen.storyboard */ = {
+		C247D0CA1E717D2600E22BEE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2CA09871E71654900439BAC /* Base */,
+				C247D0CB1E717D2600E22BEE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -520,7 +333,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C2CA09A01E71654900439BAC /* Debug */ = {
+		C247D0E41E717D2600E22BEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -567,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		C2CA09A11E71654900439BAC /* Release */ = {
+		C247D0E51E717D2600E22BEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,9 +421,8 @@
 			};
 			name = Release;
 		};
-		C2CA09A31E71654900439BAC /* Debug */ = {
+		C247D0E71E717D2600E22BEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46B468CA08FB9EFA3E05A0C6 /* Pods-sunduskCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
@@ -621,9 +433,8 @@
 			};
 			name = Debug;
 		};
-		C2CA09A41E71654900439BAC /* Release */ = {
+		C247D0E81E717D2600E22BEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87847F125355F3CD4854B433 /* Pods-sunduskCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
@@ -634,9 +445,8 @@
 			};
 			name = Release;
 		};
-		C2CA09A61E71654900439BAC /* Debug */ = {
+		C247D0EA1E717D2600E22BEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 671BAC81AF09E937A39A305D /* Pods-sunduskCameraTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
@@ -648,9 +458,8 @@
 			};
 			name = Debug;
 		};
-		C2CA09A71E71654900439BAC /* Release */ = {
+		C247D0EB1E717D2600E22BEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DA3D8B749639337AE80CA36 /* Pods-sunduskCameraTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
@@ -662,9 +471,8 @@
 			};
 			name = Release;
 		};
-		C2CA09A91E71654900439BAC /* Debug */ = {
+		C247D0ED1E717D2600E22BEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DA6EA612F0B9DD3250C62DA /* Pods-sunduskCameraUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
 				INFOPLIST_FILE = sunduskCameraUITests/Info.plist;
@@ -675,9 +483,8 @@
 			};
 			name = Debug;
 		};
-		C2CA09AA1E71654900439BAC /* Release */ = {
+		C247D0EE1E717D2600E22BEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CE9A9E89EA3EFB11F200815 /* Pods-sunduskCameraUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
 				INFOPLIST_FILE = sunduskCameraUITests/Info.plist;
@@ -691,40 +498,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2CA09701E71654900439BAC /* Build configuration list for PBXProject "sunduskCamera" */ = {
+		C247D0B41E717D2600E22BEE /* Build configuration list for PBXProject "sunduskCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CA09A01E71654900439BAC /* Debug */,
-				C2CA09A11E71654900439BAC /* Release */,
+				C247D0E41E717D2600E22BEE /* Debug */,
+				C247D0E51E717D2600E22BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2CA09A21E71654900439BAC /* Build configuration list for PBXNativeTarget "sunduskCamera" */ = {
+		C247D0E61E717D2600E22BEE /* Build configuration list for PBXNativeTarget "sunduskCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CA09A31E71654900439BAC /* Debug */,
-				C2CA09A41E71654900439BAC /* Release */,
+				C247D0E71E717D2600E22BEE /* Debug */,
+				C247D0E81E717D2600E22BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C2CA09A51E71654900439BAC /* Build configuration list for PBXNativeTarget "sunduskCameraTests" */ = {
+		C247D0E91E717D2600E22BEE /* Build configuration list for PBXNativeTarget "sunduskCameraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CA09A61E71654900439BAC /* Debug */,
-				C2CA09A71E71654900439BAC /* Release */,
+				C247D0EA1E717D2600E22BEE /* Debug */,
+				C247D0EB1E717D2600E22BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C2CA09A81E71654900439BAC /* Build configuration list for PBXNativeTarget "sunduskCameraUITests" */ = {
+		C247D0EC1E717D2600E22BEE /* Build configuration list for PBXNativeTarget "sunduskCameraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CA09A91E71654900439BAC /* Debug */,
-				C2CA09AA1E71654900439BAC /* Release */,
+				C247D0ED1E717D2600E22BEE /* Debug */,
+				C247D0EE1E717D2600E22BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C2CA096D1E71654900439BAC /* Project object */;
+	rootObject = C247D0B11E717D2600E22BEE /* Project object */;
 }
